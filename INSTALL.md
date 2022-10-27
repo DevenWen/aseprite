@@ -173,7 +173,7 @@ Run `cmake` with the following parameters and then `ninja`:
       -DSKIA_LIBRARY_DIR=$HOME/deps/skia/out/Release-x64 \
       -DSKIA_LIBRARY=$HOME/deps/skia/out/Release-x64/libskia.a \
       -G Ninja \
-      ..
+      ..  # 注意，这不是省略号，是编译目录
     ninja aseprite
 
 In this case, `$HOME/deps/skia` is the directory where Skia was
